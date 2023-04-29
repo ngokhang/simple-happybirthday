@@ -1,0 +1,30 @@
+.modal-content {
+  background: url('https://e0.pxfuel.com/wallpapers/59/297/desktop-wallpaper-letter-p-love-letter-design-old-love-notes.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.congulation {
+  position: absolute;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+  p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+@keyframes fadeIn {
+  from {
+    left: -10000px;
+  }
+  to {
+    left: 15%;
+  }
+}

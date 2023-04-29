@@ -1,0 +1,15 @@
+.homepage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #52c5f2;
+  .form {
+    border: 1px solid #ececec;
+    &-title {
+      font-size: 20px;
+      line-height: 1.25;
+      color: white;
+      font-weight: bold;
+    }
+  }
+}
